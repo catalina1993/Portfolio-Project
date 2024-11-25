@@ -1,42 +1,51 @@
-# Portfolio Website
+Portfolio Website
 
-This is a dark-light contrast website for a portfolio. It is related to being a web developer, but can be edited to be for any type of portfolio. It includes a bit of custom JavaScript for the typewriter effect and uses a script called "Lightbox" for the project modals.
+This is my personal portfolio website showcasing my skills, experience, and projects as a UI/UX Designer and Front-End Developer. It is designed to be a central hub for potential employers, clients, and collaborators.
 
-<img src="./images/screen.png" />
+Table of Contents
 
-## Features
+Overview
+Features
+Technologies Used
+Sections
+Setup Instructions
+Screenshots
+Future Improvements
+Contact
+Overview
 
-- Dark and light contrast
-- Responsive design
-- Full height header/hero
-- Background image overlays
-- Typewriter effect in header
-- Lightbox modals for projects
-- Progress bar stats
-- Font awesome icons
+The website is fully responsive and visually appealing, offering an intuitive user experience. It uses modern web technologies to ensure performance and scalability. This portfolio highlights my technical skills, creative projects, and services I offer in web development and design.
 
-## Usage
+Features
 
-This website is built with [Bootstrap](https://getbootstrap.com/) and [Sass](https://sass-lang.com/). It uses [Font Awesome](https://fontawesome.com/) for icons.
+Responsive Design: Optimized for all devices (desktop, tablet, mobile).
+Smooth Animations: Includes hover effects, transitions, and a gradient animation.
+Portfolio Gallery: A grid layout with a Lightbox gallery for project previews.
+Contact Form: A working contact form powered by Netlify for seamless communication.
+Clean Typography: Uses modern fonts (Poppins and Lora) for readability and aesthetics.
+Technologies Used
 
-In order to customize this website, you need to install [Node.js](https://nodejs.org/en/). Then, clone this repository and run:
+HTML5: Markup language.
+CSS3: Styling, animations, and layouts.
+Bootstrap 5: Responsive grid system and utility classes.
+JavaScript: Interactive elements and functionality.
+Lightbox.js: Interactive project gallery.
+Font Awesome: Icons for skills and services.
+Sections
 
-```bash
-npm install
-```
-
-This will install Bootstrap, Sass and Font Awesome. To build your CSS files from Sass, run:
-
-```bash
-npm run sass:build
-```
-
-To watch your Sass files for changes, run:
-
-```bash
-npm run sass:watch
-```
-
-You can add Bootstrap variables to the `bootstrap.scss` file. You can look at the file `node_modules/bootstrap/dist/scss/_variables.scss` for a list of all the variables. Do NOT edit the `variables.scss` file directly, as it will be overwritten when you update Bootstrap.
-
-To add your own custom styles, use the `styles.scss` file.
+Header:
+Animated gradient background with an introduction.
+Links to social media profiles (LinkedIn, GitHub).
+About Me:
+A short bio and an image of myself.
+A description of my background, skills, and hobbies.
+Skills:
+Displays my technical skills using icons and Bootstrap utilities.
+Portfolio:
+A gallery showcasing completed projects with hover effects.
+Lightbox integration for a seamless viewing experience.
+Services:
+A list of services offered (UI/UX design, web development, design systems).
+Contact:
+A responsive contact form powered by Netlify.
+Footer with copyright information.
